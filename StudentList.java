@@ -66,6 +66,7 @@ public class StudentList {
 						done=true;
 				}
 			}
+			if(done==false) System.out.println("No such student exist");
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");				
 		}
